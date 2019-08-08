@@ -166,42 +166,6 @@ if __name__=='__main__':
         'port': '5432',
     }
 
-    PlaceDB={
-        'databasename': 'PlaceDB',
-        'user': 'postgres',
-        'password': 'wayzpg@1234',
-        'host': '172.3.0.107',
-        'port': '5432',
-    }
-
-    # emg_190327_18q1 = {
-    #     'databasename': 'emg_190327_18q1',
-    #     'user': 'postgres',
-    #     'password': 'wayzpg@1234',
-    #     'host': '172.3.0.107',
-    #     'port': '5432',
-    # }
-
-    PlaceDB_backup={
-        'databasename': 'PlaceDB_backup',
-        'user': 'postgres',
-        'password': 'wayzpg@1234',
-        'host': '172.3.0.107',
-        'port': '5432',
-    }
-
-
-
-    # DB_field_list,DB_Type_list=get_DB_Field_Type(PlaceDB, "food")
-    # data=list( zip(DB_field_list,DB_Type_list))
-    # data_out=pd.DataFrame(data,columns=['name','type'])
-    # data_out.to_excel('a.xls',index=0)
-
-    # SQL=get_SQL_create_fromXLS("a.xls", "food")
-    # RunSQL_withoutValue(my_test,SQL)
-
-
-
 
 
 
