@@ -4,14 +4,6 @@ create by WYD
 PS：持续更新。
 '''
 
-'''
-"database": "amap_2019q1_wgds_0528",
-"user": "postgres",
-"password": "wayzpg@1234",
-"host": "172.3.0.107",
-"port": "5432"
-'''
-
 import psycopg2 #导入psycopg2库进行数据库操作。
 import numpy as np
 import pandas as pd
@@ -36,10 +28,6 @@ def RunSQL_withoutValue(database_conn,SQL):
     cur.execute(SQL)# 传入的参数是 SQL 建表语句
     conn.commit()  # 注意，只有commit一下才会生效
     conn.close()
-
-def get_excel(code_name_xls):
-    data_excel=np.array(pd.read_excel(code_name_xls))
-    return data_excel
 
 '''
 获取制定表的结构
