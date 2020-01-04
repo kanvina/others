@@ -25,7 +25,7 @@ def WGS84_CGCS2000(lon,lat,degree_type,is_zone_number):
                 p1 = Proj(init='epsg:4326')
                 p2 = Proj(init='epsg:{0}'.format(Epsg_test))
                 x, y = p1(lon,lat)
-                x_prj, y_prj = transform(p1, p2, x, y,radians=True)
+                x_prj, y_prj = transform(p1, p2, x, y)
                 x_prj=int(x_prj)
                 y_prj=int(y_prj)
 
@@ -35,7 +35,7 @@ def WGS84_CGCS2000(lon,lat,degree_type,is_zone_number):
                 p1 = Proj(init='epsg:4326')
                 p2 = Proj(init='epsg:{0}'.format(Epsg_test))
                 x, y = p1(lon,lat)
-                x_prj, y_prj = transform(p1, p2, x, y,radians=True)
+                x_prj, y_prj = transform(p1, p2, x, y)
                 x_prj=int(x_prj)
                 y_prj=int(y_prj)
 
@@ -47,7 +47,7 @@ def WGS84_CGCS2000(lon,lat,degree_type,is_zone_number):
                 p1 = Proj(init='epsg:4326')
                 p2 = Proj(init='epsg:{0}'.format(epsg))
                 x, y = p1(lon,lat)
-                x_prj, y_prj = transform(p1, p2, x, y,radians=True)
+                x_prj, y_prj = transform(p1, p2, x, y)
                 x_prj=int(x_prj)
                 y_prj=int(y_prj)
 
@@ -58,14 +58,14 @@ def WGS84_CGCS2000(lon,lat,degree_type,is_zone_number):
                 p1 = Proj(init='epsg:4326')
                 p2 = Proj(init='epsg:{0}'.format(epsg))
                 x, y = p1(lon,lat)
-                x_prj, y_prj = transform(p1, p2, x, y,radians=True)
+                x_prj, y_prj = transform(p1, p2, x, y)
                 x_prj=int(x_prj)
                 y_prj=int(y_prj)
 
     return x_prj,y_prj
 def CGCS2000_WGS84(X,Y):
 
-    p = Proj(init='epsg:4527')
+    p = Proj(init='epsg:4499')
     lon,lat = p(X,Y,inverse=True)
     lon=round(lon,6)
     lat=round(lat,6)
@@ -73,8 +73,7 @@ def CGCS2000_WGS84(X,Y):
 
 if __name__=='__main__':
 
-    x_2000, y_2000 = WGS84_CGCS2000(120, 41, 3, is_zone_number=True)
+    x_2000, y_2000 = WGS84_CGCS2000(117.181551,34.220359, 6, is_zone_number=True)
     print(x_2000,y_2000)
 
-
-
+    print(CGCS2000_WGS84(x_2000,y_2000))
