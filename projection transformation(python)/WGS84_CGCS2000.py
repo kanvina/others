@@ -73,7 +73,7 @@ def CGCS2000_WGS84(X,Y):
 
 if __name__=='__main__':
 
-    x_2000, y_2000 = WGS84_CGCS2000(117.181551,34.220359, 6, is_zone_number=True)
+    x_2000, y_2000 = WGS84_CGCS2000(117.181551,34.220359, 3, is_zone_number=True)
     print(x_2000,y_2000)
 
-    print(CGCS2000_WGS84(x_2000,y_2000))
+    # print(CGCS2000_WGS84(x_2000,y_2000))

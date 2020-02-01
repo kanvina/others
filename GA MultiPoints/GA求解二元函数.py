@@ -113,6 +113,7 @@ for i in range(N_GENERATIONS):
 
     if 'sca' in globals(): sca.remove()
     sca = ax.scatter3D(translateDNA(pop)[0],translateDNA(pop)[1],Func_values,s=200, lw=0, c='red', alpha=0.5); plt.pause(0.05)
+
     fitness = get_fitness(Func_values)
     result=np.array([pop[np.argmax(fitness), :]])
     Allpoints=get_bestresult(Allresult,i, translateDNA(result)[0].flatten(), translateDNA(result)[1].flatten(),Func(translateDNA(result)[0], translateDNA(result)[1]).flatten())
