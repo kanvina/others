@@ -11,7 +11,7 @@ class GA():
         self.n_max=300
         self.cross_rate=0.6
         self.mutate_rate=0.03
-        self.save_rate=0.03
+        self.save_rate=0
 
 
     def Func(self,x,y):
@@ -111,6 +111,7 @@ class GA():
                 if fitness_child >=fitness:
                     child_list.append([x_child,y_child])
                 else:
+                    # child_list.append([x, y])
                     child_list.append([x, y])
             else:
                 child_list.append(list(x_y))

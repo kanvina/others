@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="357b512d-b123-4612-9b52-495cc6f94fa2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/求解_实数编码.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GA求解二元函数.py" beforeDir="false" afterPath="$PROJECT_DIR$/GA求解二元函数.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projection transformation(python)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../projection transformation(python)/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../projection transformation(python)/WGS84_CGCS2000.py" beforeDir="false" afterPath="$PROJECT_DIR$/../projection transformation(python)/WGS84_CGCS2000.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/求解_实数编码.py" beforeDir="false" afterPath="$PROJECT_DIR$/求解_实数编码.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,20 +15,30 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/求解_实数编码.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="196" column="17" selection-start-line="196" selection-start-column="17" selection-end-line="196" selection-end-column="17" />
+            <state relative-caret-position="816">
+              <caret line="112" column="21" lean-forward="true" selection-start-line="112" selection-start-column="21" selection-end-line="113" selection-end-column="47" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#374#495#0" />
+                <element signature="e#535#1121#0" />
+                <element signature="e#1159#1775#0" />
+                <element signature="e#1828#2393#0" />
+                <element signature="e#3446#3898#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
+        <entry file="file://$PROJECT_DIR$/GA求解二元函数.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            <state relative-caret-position="-429">
+              <caret line="103" lean-forward="true" selection-start-line="111" selection-start-column="3" selection-end-line="111" selection-end-column="39" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#622#946#0" />
+                <element signature="e#990#1136#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -225,8 +230,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.求解_实数编码" />
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.GA求解二元函数" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.GA_MultiPoints" />
         <item itemvalue="Python.数据可视化" />
       </list>
@@ -254,7 +259,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3442623" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.109836064" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30327868" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -340,10 +345,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/GA求解二元函数.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="111" column="3" selection-start-line="111" selection-start-column="3" selection-end-line="111" selection-end-column="39" />
+        <state relative-caret-position="-429">
+          <caret line="103" lean-forward="true" selection-start-line="111" selection-start-column="3" selection-end-line="111" selection-end-column="39" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
             <element signature="e#622#946#0" />
@@ -354,22 +366,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/求解_实数编码.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="196" column="17" selection-start-line="196" selection-start-column="17" selection-end-line="196" selection-end-column="17" />
+        <state relative-caret-position="816">
+          <caret line="112" column="21" lean-forward="true" selection-start-line="112" selection-start-column="21" selection-end-line="113" selection-end-column="47" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <element signature="e#550#679#0" />
-            <element signature="e#504#1120#0" />
-            <element signature="e#1174#1710#0" />
-            <element signature="e#1762#2771#0" />
+            <element signature="e#374#495#0" />
+            <element signature="e#535#1121#0" />
+            <element signature="e#1159#1775#0" />
+            <element signature="e#1828#2393#0" />
+            <element signature="e#3446#3898#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
         </state>
       </provider>
     </entry>
